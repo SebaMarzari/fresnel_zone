@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fresnel_zone/static/css/main.29d49516.css",
+    "main.js": "/fresnel_zone/static/js/main.ab048d7b.js",
+    "index.html": "/fresnel_zone/index.html",
+    "main.29d49516.css.map": "/fresnel_zone/static/css/main.29d49516.css.map",
+    "main.ab048d7b.js.map": "/fresnel_zone/static/js/main.ab048d7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29d49516.css",
+    "static/js/main.ab048d7b.js"
+  ]
+}
