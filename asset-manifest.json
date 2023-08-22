@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fresnel_zone/static/css/main.29d49516.css",
-    "main.js": "/fresnel_zone/static/js/main.ab048d7b.js",
+    "main.css": "/fresnel_zone/static/css/main.4754d2c0.css",
+    "main.js": "/fresnel_zone/static/js/main.7f09f6b7.js",
     "index.html": "/fresnel_zone/index.html",
-    "main.29d49516.css.map": "/fresnel_zone/static/css/main.29d49516.css.map",
-    "main.ab048d7b.js.map": "/fresnel_zone/static/js/main.ab048d7b.js.map"
+    "main.4754d2c0.css.map": "/fresnel_zone/static/css/main.4754d2c0.css.map",
+    "main.7f09f6b7.js.map": "/fresnel_zone/static/js/main.7f09f6b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.29d49516.css",
-    "static/js/main.ab048d7b.js"
+    "static/css/main.4754d2c0.css",
+    "static/js/main.7f09f6b7.js"
   ]
 }
