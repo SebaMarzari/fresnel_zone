@@ -32,7 +32,12 @@ const FresnelZoneCalculator = () => {
     setDistance(Number(value))
   }
 
-  const calculate = () => {
+  const handleClean = () => {
+    setDistance(0)
+    setRadius(0)
+  }
+
+  const handleCalculate = () => {
     const radius = 8.656 * Math.sqrt(distance / frequency)
     setRadius(radius)
   }
@@ -66,13 +71,23 @@ const FresnelZoneCalculator = () => {
               </Tooltip>
             </Space.Compact>
           </div>
-          <Button
-            className='button'
-            type='primary'
-            onClick={calculate}
+          <div
+            className='button-container'
           >
-            Calcular
-          </Button>
+            <Button
+              className='button'
+              onClick={handleClean}
+            >
+              Limpiar
+            </Button>
+            <Button
+              className='button'
+              type='primary'
+              onClick={handleCalculate}
+            >
+              Calcular
+            </Button>
+          </div>
           <Typography.Text
             className='text'
           >
