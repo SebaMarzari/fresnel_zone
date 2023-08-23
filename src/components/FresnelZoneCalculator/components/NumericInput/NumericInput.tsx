@@ -16,12 +16,12 @@ const NumericInput = (props: NumericInputProps) => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { value: inputValue } = e.target;
     const reg = /^-?\d*(\.\d*)?$/;
+    console.log(inputValue)
     if (reg.test(inputValue) || inputValue === '' || inputValue === '-') {
       onChange(inputValue);
     }
   };
 
-  // '.' at the end or only '-' in the input box.
   const handleBlur = () => {
     let valueTemp = value;
     if (value.charAt(value.length - 1) === '.' || value === '-') {
@@ -41,6 +41,8 @@ const NumericInput = (props: NumericInputProps) => {
         onBlur={handleBlur}
         placeholder="Ingrese distancia (km)"
         maxLength={16}
+        type='number'
+        step='any'
       />
       <Tooltip title="Ingrese distancia en kilómetros">
         <InfoCircleOutlined />

@@ -70,3 +70,10 @@
   justify-content: center;
   gap: 1rem;
 }
+
+.footer {
+  color: #9b9b9b;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -94,6 +94,11 @@ const FresnelZoneCalculator = () => {
             El radio de la zona de Fresnel es: {radius.toFixed(2)} metros
           </Typography.Text>
         </Card>
+        <div
+          className='footer'
+        >
+          Autor: Sebastian Marzari
+        </div>
       </Space>
     </div>
   )
